@@ -1,0 +1,33 @@
+.dish {
+  border: 1px black solid;
+  border-radius: 10px;
+  margin: 10px;
+  max-height: 250px;
+}
+.dish img {
+  display: block;
+  margin: 0 auto;
+}
+.dish span {
+  width: 70%;
+  margin-left: 10px;
+}
+
+.dish_info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.add_button {
+  margin: auto;
+  height: 40px;
+  width: 40px;
+  background-color: #2ae81a;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.add_button:hover {
+  background-color: #24b018;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,20 @@
+.header{
+  ul{
+    list-style-type: none;
+    display: flex;
+    li{
+      a{
+        text-decoration: none !important;
+        color: black;
+      }
+      margin: 0;
+      min-width: 80px;
+      width: max-content;
+      align-content: center;
+    }
+  }
+}
+.border-left{
+  padding-left: 40px;
+  border-left: 1px black solid;
+}

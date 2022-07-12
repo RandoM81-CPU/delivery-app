@@ -1,0 +1,43 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.container form {
+  display: flex;
+  flex-direction: column;
+  border: 1px black solid;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.container form label {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.submit {
+  width: 70px;
+  height: 30px;
+  border-radius: 5px;
+  margin: 10px;
+  background-color: white;
+  cursor: pointer;
+}
+.submit:hover {
+  background-color: #bebebe;
+}
+
+.order {
+  border: 1px black solid;
+  border-radius: 10px;
+  max-height: 284px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.error {
+  color: red;
+  margin: 5px;
+}
+
+/*# sourceMappingURL=style.css.map */

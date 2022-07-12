@@ -1,0 +1,21 @@
+.header ul {
+  list-style-type: none;
+  display: flex;
+}
+.header ul li {
+  margin: 0;
+  min-width: 80px;
+  width: max-content;
+  align-content: center;
+}
+.header ul li a {
+  text-decoration: none !important;
+  color: black;
+}
+
+.border-left {
+  padding-left: 40px;
+  border-left: 1px black solid;
+}
+
+/*# sourceMappingURL=style.css.map */
